@@ -1,0 +1,55 @@
+$font-size: 1rem;
+$font-color: #1c3850;
+$body-color: #ccc0c0;
+$footer-color: #d5b397;
+
+$width: 90em;
+$header-height: 8em;
+$content-height: 30em;
+$footer-height: 8em;
+
+$p-font-size: 18px;
+$p-font-size-large: 22px;
+$p-font-size-small: 14px;
+$h1-font-size: 60px;
+$h2-font-size: 48px;
+$h3-font-size: 28px;
+
+$margin: 50px;
+
+html {
+  font-size: $font-size;
+  color: $font-color;
+  background-color: $body-color;
+}
+body {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+header {
+  margin-top: $margin;
+}
+header, main, footer {
+  border: 1px dashed $font-color;
+}
+h1 {
+  font-size: $h1-font-size;
+  font-weight: bold;
+}
+h2 {
+  font-size: $h2-font-size;
+}
+h3 {
+  font-size: $h3-font-size;
+}
+header {
+  height: $header-height;
+}
+main {
+  height: $content-height;
+}
+footer {
+  height: $footer-height;
+  background-color: $footer-color;
+}
